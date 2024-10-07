@@ -1,18 +1,12 @@
 {
-  "homepage": "https://permalist.github.io.com/",
   "name": "5-capstone---todo-list",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "dev": "webpack --config=Scripts/config/webpack.dev.js --watch",
-    "build": "webpack --config=Scripts/config/webpack.prod.js",
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node index.js",
-    "predeploy": "npm run build",
-  
-    "deploy": "gh-pages -d build"
+    "start": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -23,7 +17,6 @@
     "ejs": "^3.1.9",
     "env": "^0.0.2",
     "express": "^4.18.2",
-    "gh-pages": "^6.1.1",
     "pg": "^8.11.3"
   }
 }
